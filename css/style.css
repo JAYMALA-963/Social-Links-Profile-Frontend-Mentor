@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    background: hsl(0, 0%, 12%);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50px;
+    margin-bottom: 22px;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.profile address {
+    font-style: normal;
+    font-size: 11px;
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.bio {
+    font-size: 12px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links ul li {
+    width: 230px;
+    font-size: 12px;
+    font-weight: 700;
+    background: hsl(0, 0%, 20%);
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.social-links ul li:active{
+    color: black;
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.social-links ul li:hover{
+    color: black;
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.attribution, a{
+    font-size: 12px;
+    text-align: center;
+}
+
+a{
+    color: hsl(75, 94%, 57%);
+}
